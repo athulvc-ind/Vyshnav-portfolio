@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--
+  EDIT GUIDE (index.html)
+  - Search for "EDIT:" to find every spot you need to change.
+  - Project cards: swap titles, descriptions, role, year, tags and each card's href (Behance project link).
+  - Cover images: save as images/project-1.jpg ... project-4.jpg (1600x1200). Until then a grey placeholder shows.
+  - Case study: fill the four blocks under #case-study.
+  - LinkedIn: replace YOUR-LINKEDIN-HANDLE. Form: replace YOUR_FORM_ID (free account at formspree.io).
+  - Images are already optimised and named in /images. Upload the whole folder and delete your old style.css.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vyshnav KP, UI/UX designer in Kozhikode</title>
+<meta name="description" content="Vyshnav KP designs apps and websites people don't have to think about. UI/UX designer based in Kozhikode, Kerala.">
+<meta property="og:title" content="Vyshnav KP, UI/UX designer">
+<meta property="og:description" content="Apps and websites people don't have to think about.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://kpvyshnav130.github.io/NEW-1/images/image1.png">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>/* set theme before paint to avoid a flash */
+try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){}
+document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#work">Skip to work</a>
+
+<header class="nav" id="nav">
+  <a href="#top" class="brand"><img src="images/logo.png" alt="Vyshnav KP logo" width="40" height="40"></a>
+  <nav aria-label="Main">
+    <a class="u" href="#work">Work</a>
+    <a class="u" href="#about">About</a>
+    <a class="u" href="#contact">Contact</a>
+    <button id="theme" type="button" aria-label="Toggle dark mode">Dark</button>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- INTRO -->
+  <section class="hero g">
+    <h1 class="rv">I design apps and websites you don't have to think about.</h1>
+    <div class="hero-side rv">
+      <p>Vyshnav KP. UI/UX designer in Kozhikode, Kerala. Open to freelance and full-time work.</p> <!-- EDIT: refine -->
+      <p><a class="u" href="#work">See the work</a> &nbsp; <a class="u" href="#contact">Get in touch</a></p>
+    </div>
+  </section>
+
+  <!-- SELECTED WORK -->
+  <section id="work" class="work">
+    <h2 class="sec rv">Selected work</h2>
+    <div class="g cards">
+      <!-- EDIT: repeat this block per project. Whole card links to Behance. -->
+      <a class="card c1 rv" href="https://www.behance.net/vyshnavkp3" target="_blank" rel="noopener">
+        <figure class="cover" data-ph="Cover 1: images/project-1.jpg"><img src="images/project-1.jpg" alt="Cover image for Project title one" loading="lazy" width="1600" height="1200" onerror="this.remove()"></figure>
+        <h3>Project title one</h3>
+        <p>One line on what it is and what you fixed.</p>
+        <dl><dt>Role</dt><dd>UI/UX design</dd><dt>Year</dt><dd>2025</dd></dl>
+        <ul class="tags"><li>Mobile App</li></ul>
+      </a>
+      <a class="card c2 rv" href="https://www.behance.net/vyshnavkp3" target="_blank" rel="noopener">
+        <figure class="cover" data-ph="Cover 2: images/project-2.jpg"><img src="images/project-2.jpg" alt="Cover image for Project title two" loading="lazy" width="1600" height="1200" onerror="this.remove()"></figure>
+        <h3>Project title two</h3>
+        <p>One line on what it is and what you fixed.</p>
+        <dl><dt>Role</dt><dd>Product design</dd><dt>Year</dt><dd>2025</dd></dl>
+        <ul class="tags"><li>Web</li></ul>
+      </a>
+      <a class="card c3 rv" href="https://www.behance.net/vyshnavkp3" target="_blank" rel="noopener">
+        <figure class="cover" data-ph="Cover 3: images/project-3.jpg"><img src="images/project-3.jpg" alt="Cover image for Project title three" loading="lazy" width="1600" height="1200" onerror="this.remove()"></figure>
+        <h3>Project title three</h3>
+        <p>One line on what it is and what you fixed.</p>
+        <dl><dt>Role</dt><dd>Brand identity</dd><dt>Year</dt><dd>2024</dd></dl>
+        <ul class="tags"><li>Branding</li></ul>
+      </a>
+      <a class="card c4 rv" href="https://www.behance.net/vyshnavkp3" target="_blank" rel="noopener">
+        <figure class="cover" data-ph="Cover 4: images/project-4.jpg"><img src="images/project-4.jpg" alt="Cover image for Project title four" loading="lazy" width="1600" height="1200" onerror="this.remove()"></figure>
+        <h3>Project title four</h3>
+        <p>One line on what it is and what you fixed.</p>
+        <dl><dt>Role</dt><dd>UI design</dd><dt>Year</dt><dd>2024</dd></dl>
+        <ul class="tags"><li>Web</li><li>Branding</li></ul>
+      </a>
+    </div>
+    <p class="more"><a class="u" href="https://www.behance.net/vyshnavkp3" target="_blank" rel="noopener">All projects on Behance</a></p>
+  </section>
+
+  <!-- CASE STUDY TEMPLATE: copy this block into its own page later -->
+  <section id="case-study" class="case">
+    <h2 class="sec rv">Case study layout <span>(template)</span></h2>
+    <div class="row g rv"><h3>Problem</h3><p>EDIT: Who was struggling, with what, and how you know.</p></div>
+    <div class="row g rv"><h3>Process</h3><p>EDIT: Research, sketches, tests. What you tried and dropped.</p></div>
+    <div class="row g rv"><h3>Solution</h3><p>EDIT: The final design and the two or three decisions that mattered.</p></div>
+    <div class="row g rv"><h3>Outcome</h3><p>EDIT: What changed after launch. Use real numbers or leave it out.</p></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about g">
+    <figure class="photo rv"><img src="images/image1.png" alt="Portrait of Vyshnav KP" loading="lazy" width="600" height="750"></figure>
+    <div class="about-text rv">
+      <h2 class="sec">About</h2>
+      <p class="lead">I start with the person using the thing, sketch fast, and cut whatever doesn't help them finish what they came to do.</p>
+      <p>Based in Kozhikode. I work mostly in Figma and like the small details: empty states, error messages, the second tap.</p> <!-- EDIT: add one personal line -->
+    </div>
+  </section>
+
+  <!-- TOOLS + CERTIFICATES -->
+  <section class="meta g">
+    <div class="tools rv">
+      <h2 class="sec">Tools</h2>
+      <p>Figma, Illustrator, Photoshop, Notion, Lightroom, Canva</p>
+    </div>
+    <div class="certs rv">
+      <h2 class="sec">Certificates</h2>
+      <ul>
+        <li><button type="button" data-full="images/accenture-certificate1.jpg" data-alt="Accenture certificate: Digital Skills, User Experience"><img src="images/accenture-certificate1-thumb.jpg" alt="Accenture certificate: Digital Skills, User Experience" loading="lazy" width="136" height="192"></button></li>
+        <li><button type="button" data-full="images/accenture-certificate2.jpg" data-alt="Accenture course transcript for Digital Skills, User Experience"><img src="images/accenture-certificate2-thumb.jpg" alt="Accenture course transcript for Digital Skills, User Experience" loading="lazy" width="136" height="192"></button></li>
+        <li><button type="button" data-full="images/knovista-certificate.jpg" data-alt="Knovista certificate: Talent Growth Workshop participation"><img src="images/knovista-certificate-thumb.jpg" alt="Knovista certificate: Talent Growth Workshop participation" loading="lazy" width="272" height="192"></button></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2 class="sec rv">Contact</h2>
+    <div class="mail rv">
+      <a id="email" href="mailto:kpvyshnav130@gmail.com">kpvyshnav130@gmail.com</a>
+      <button id="copy" type="button">Copy email</button>
+      <span id="copied" role="status" aria-live="polite"></span>
+    </div>
+    <div class="g cform">
+      <form class="rv" action="https://formspree.io/f/YOUR_FORM_ID" method="POST"> <!-- EDIT: your Formspree ID -->
+        <label>Name <input name="name" required autocomplete="name"></label>
+        <label>Email <input name="email" type="email" required autocomplete="email"></label>
+        <label>Message <textarea name="message" rows="4" required></textarea></label>
+        <button type="submit">Send message</button>
+      </form>
+      <ul class="small rv">
+        <li><a class="u" href="tel:+919037423776">9037423776</a></li>
+        <li>Kozhikode, Kerala</li>
+        <li><a class="u" href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank" rel="noopener">LinkedIn</a></li> <!-- EDIT -->
+        <li><a class="u" href="https://www.behance.net/vyshnavkp3" target="_blank" rel="noopener">Behance</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer><p>Vyshnav KP, 2026</p></footer>
+
+<dialog id="lb"><form method="dialog"><button aria-label="Close">Close</button></form><img alt=""></dialog>
+<div class="cur" aria-hidden="true">View</div>
+<script src="script.js" defer></script>
+</body>
+</html>
